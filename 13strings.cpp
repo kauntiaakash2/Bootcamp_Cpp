@@ -18,5 +18,9 @@ int main()
     menu << item2 << " - $" << fixed << setprecision(2) << price2 << endl;
 
     cout << menu.str();
+
+    // Using substring problems
+    string str = "Hello, World!";
+    cout << str.substr(7, 5);  // Output: World
     return 0;
 }
