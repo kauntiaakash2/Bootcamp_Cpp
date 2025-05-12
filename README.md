@@ -108,7 +108,7 @@ git push origin feature-branch
 For any queries or feedback, feel free to reach out:
 
 * **GitHub:** [kauntiaakash2](https://github.com/kauntiaakash2)
-* **Email:** [akashkauntia2006@gmail.com](gmail.com)
+* **Email:** [akashkauntia2006@gmail.com](https://gmail.com/akashkautia2006@gmail.com)
 
 Happy Coding! 🚀
 
