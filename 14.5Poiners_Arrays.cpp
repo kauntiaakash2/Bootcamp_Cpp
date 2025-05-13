@@ -1,13 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void prntArr(int *ptr,int size){
+void prntArr(int *ptr, int size)
+{
     for (int i = 0; i < size; i++)
     {
-        cout<<*(ptr+i)<<endl;
+        cout << *(ptr + i) << endl;
     }
 }
-int main(){
-    int arr[5]={1,2,3,4,5};
+int main()
+{
+    int arr[5] = {1, 2, 3, 4, 5};
     int *ptr = arr;
     prntArr(ptr, 5);
     // cout<<*ptr<<endl;
@@ -23,3 +25,6 @@ int main(){
 // Pointer arithmetic: Using pointers allows us to perform arithmetic operations on the pointer variable to access different elements of the array. This makes it easy to traverse and manipulate arrays of any size.
 // Flexible array manipulation: Using pointers to access and manipulate arrays gives us more flexibility and control over the array data. We can easily swap or rearrange elements, perform complex operations on the data, or implement algorithms that require pointer manipulation.
 // In summary, using pointers to access and manipulate arrays gives us more flexibility, control, and efficiency when working with array data in C++. It allows us to create dynamic arrays, perform advanced operations on the data, and pass arrays by reference to functions
+
+// Q1-Modify the program to read in a two-dimensional array of integers from the user and reverse each row using a function that takes a two-dimensional integer array pointer and its dimensions as arguments.
+// Q2-Modify the program to read in an integer array from the user and check if it is a palindrome using a function that takes an integer array pointer and its size as arguments.
